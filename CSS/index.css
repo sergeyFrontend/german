@@ -1,0 +1,102 @@
+*,
+::after,
+::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header__top{
+  background: #0d6efd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.header__menu{
+  margin-left: auto;
+}
+.header__list{
+  display: flex;
+  justify-content: flex-end;
+}
+.header__link{
+  margin-left: 40px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: .3s;
+}
+.header__link:hover{
+  background: rgba(255, 255, 255, 0.298);
+}
+.header__bottom{
+  box-shadow:  0 3px 6px rgba(0, 0, 0, 0.517);
+}
+.header__menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header__list-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  height: 50px;
+  width: 100px;
+}
+.header__link-bottom{
+  font-size: 20px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  color: black;
+  transition: .3s;
+}
+.header__link-bottom:hover{
+color: #0d6efd;
+}
+.header__phone{
+border: 1px solid #0d6efd;
+padding: 11px 14px;
+font-weight: bold;
+color: #0d6efd !important;
+}
+.wrap__company{
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company__text{
+  margin-left: 50px;
+}
+.about__description{
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+.footer{
+  background-color: #0d6efd ;
+  bottom: 0px;
+  color: #fff;
+}
